@@ -1,0 +1,24 @@
+{
+    "manifest_version": 3,
+    "name": "Contact Tracker",
+    "version": "1.0.0",
+    "description": "Track emails and link to mailto",
+    "permissions": [
+      "storage",
+      "activeTab" // Add activeTab permission if using mailto links in content scripts
+    ],
+    "action": {
+      "default_popup": "index.html",
+      "default_icon": {
+        "16": "mail.png",
+        "48": "mail.png",
+        "128": "mail.png"
+      }
+    },
+    "icons": {
+      "16": "mail.png",
+      "48": "mail.png",
+      "128": "mail.png"
+    }
+  }
+  
